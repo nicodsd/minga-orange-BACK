@@ -15,7 +15,7 @@ import get_me from '../controllers/mangas/get_me.js'
 import finds_id from '../middlewares/finds_id.js'
 import editManga from '../controllers/mangas/update.js'
 import is_property_of from '../middlewares/is_property_of.js'
-import is_active from '../middlewares/is_active.js'
+import is_active from '../middlewares/is_Active.js'
 import deleteManga from '../controllers/mangas/destroy.js'
 import isPropertyOf from "../middlewares/is_Property_of_nico.js"
 import uploadImg from '../services/firebase.cjs'
